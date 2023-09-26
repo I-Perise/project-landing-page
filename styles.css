@@ -1,0 +1,156 @@
+
+body {
+    font-family: roboto, Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;    
+}
+
+.header,
+.header a {
+    background-color: #1F2937;
+    color: #ffff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.header {
+    max-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+div.header-right {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-wrap: nowrap;
+}
+
+div.header-left {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px;
+    gap: 20px;
+}
+
+div.left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+div.left p {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+div.left-subtext,
+div.left p {
+    color: #f9faf8;
+}
+
+div .left-button,
+div .button {
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 30px 5px 30px;
+    color: #f9faf8;
+    background-color: #3882F6;
+}
+
+div.right img {
+    max-width: 400px;
+    height: auto;
+}
+
+div.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+div.top {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+div.section-two img,
+div.section-two .image-with-text p {
+    width: 150px;
+    padding: 10px; 
+}
+
+div.section-two ul,
+div.section-two li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+div.image-with-text ul li {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.section-three {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+}
+
+div.quote-container {
+    max-width: 500px;
+    align-self: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+div.quote-container div.quote-by {
+    text-align: right;
+}
+
+.section-four {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 50px 24px 50px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10px;
+}
+
+div .section-four-right {
+    align-self: center;
+}
+
+div .alternate-button {
+    border: 2px solid white;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
